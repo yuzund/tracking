@@ -1,0 +1,81 @@
+<mat-card class="card">
+<mat-card-header>
+  <div mat-card-avatar><mat-icon>home</mat-icon></div>
+  <mat-card-title>最寄りの業者拠点に到着しました</mat-card-title>
+  <mat-card-subtitle>0000-0000-0000-0000</mat-card-subtitle>
+</mat-card-header>
+<mat-card-content>
+  <mat-horizontal-stepper labelPosition="bottom" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>荷主から運送業者へ引き渡し</ng-template>
+  <div class="info-card">荷主が指定した「」が担当します。</div>
+      </form>
+    </mat-step
+    ><mat-step [stepControl]="secondFormGroup">
+      <form [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>経由</ng-template>
+        <div class="info-card">荷物は経由拠点を通過しました。</div>
+
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup">
+      <form [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>最寄りの業者拠点に到着</ng-template>
+        <div class="info-card">配送指定先の近くの拠点に到着しました。</div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup">
+      <form [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>配達完了</ng-template>
+        <div class="info-card">指定先へ荷物の配達が完了しています。</div>
+      </form>
+    </mat-step>
+  </mat-horizontal-stepper>
+</mat-card-content>
+
+<mat-card-footer>
+  aaa
+</mat-card-footer>
+
+</mat-card>
+
+
+
+<br><br>
+<br><br>
+<br><br>
+
+
+
+<mat-card>
+  <mat-list>
+    <mat-list-item>Item 1</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Item 2</mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>Item 3</mat-list-item>
+  </mat-list>
+</mat-card>
+
+
+<br><br>
+<br><br>
+<br><br>
+
+
+
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      トラッキングの詳細
+    </mat-panel-title>
+    <mat-panel-description>
+      0000-0000-0000-0000
+    </mat-panel-description>
+  </mat-expansion-panel-header>
+
+
+
+  aaa
+</mat-expansion-panel>

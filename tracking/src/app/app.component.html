@@ -13,7 +13,7 @@
 <mat-toolbar>
   <span>荷物追跡サービス</span>
   <span>
-    <a mat-button routerLink="" class="header-button">Exchanges</a>
+    <a mat-button routerLink="" class="header-button">対応サービス</a>
   </span>
   <span>
     <a mat-button routerLink="" class="header-button">Exchanges</a>
@@ -34,11 +34,19 @@
 
 <mat-card>
 <form class="example-form">
+  <div>検索したい追跡番号を入力してください</div>
   <mat-form-field class="example-full-width">
     <mat-label>追跡番号</mat-label>
     <input matInput placeholder="ここに追跡番号を入力">
   </mat-form-field>
 
-<button mat-button color="primary">検索</button>
+  <button mat-button color="primary">検索</button><button mat-button color="primary">検索</button>
+  <mat-chip-list><mat-chip>日本郵便</mat-chip><mat-chip>ヤマト運輸</mat-chip><mat-chip>佐川急便</mat-chip><mat-chip>Papadum</mat-chip></mat-chip-list>
   </form>
 </mat-card>
+
+
+<br><br>
+<br><br>
+<br><br>
+<app-stepper></app-stepper>
