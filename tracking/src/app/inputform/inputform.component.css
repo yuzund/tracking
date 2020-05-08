@@ -1,7 +1,8 @@
-mat-card{
-  height: 500px;
+.custom.mat-card{
+  height: 400px;
   width: 30%;
-  max-width: 400px;
+  max-width: 450px;
+  min-width: 400px;
   position: absolute;
   top: 0;
   right: 0;
@@ -23,9 +24,14 @@ mat-form-field{
 }
 
 .B{
-  font-size:large ;
+  font-size:x-large ;
+  color: #292929;
 }
 
 .right {
   float: right;
+}
+
+.margin{
+  margin: 20px;
 }

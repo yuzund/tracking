@@ -1,17 +1,15 @@
-<div class="body">
-  <mat-card>
-    <img src="https://lh3.googleusercontent.com/proxy/ueEN1hfDwUT08gCuS6LDT65xkybMPU0Wf64Q9lB65hE9mJcN_LqBEDcH2UU0YewlpXbHA4jXnNlnJrYKm9vsj8fqyyfEBr-S9A" height="30px">
-<div class="B"appearance="outline">追跡番号検索</div>
-<div appearance="outline">このページからお荷物の追跡できます</div>
 
+  <mat-card class="custom"><div class="margin">
+   SAMPLE<div class="B"appearance="outline">追跡番号検索</div>
+<div appearance="outline">このページからお荷物の追跡できます。ハイフンは入力しても認識されます。</div>
+
+<br>
 
     <mat-form-field appearance="outline">
       <mat-label>追跡番号を入力</mat-label>
       <input matInput placeholder="貼り付けて探してみましょう" [formControl]="email">
       <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
-
     </mat-form-field>
-        <button mat-raised-button color="primary" class="right">検索</button>
+        <button mat-raised-button color="primary" class="right">　検索　</button>
+      </div>
   </mat-card>
-</div>
-
