@@ -47,11 +47,13 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import { StepperComponent } from './stepper/stepper.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { InputformComponent } from './inputform/inputform.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StepperComponent,
+    InputformComponent,
   ],
   imports: [
     FormsModule,

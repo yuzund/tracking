@@ -1,0 +1,31 @@
+mat-card{
+  height: 500px;
+  width: 30%;
+  max-width: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+mat-form-field{
+  display: flex;
+  flex-direction: column;
+}
+
+.button{
+  margin: 0 0 0 auto;
+}
+.center{
+  text-align: center;
+}
+
+.B{
+  font-size:large ;
+}
+
+.right {
+  float: right;
+}
